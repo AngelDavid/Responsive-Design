@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BarGraph</title>
+</head>
+<body>
+<canvas id="canvas_id"></canvas>
+<!--[If IE]>
+<script src="excanvas.js"></script>
+<![endif]-->
+<script src="barGraph.js"></script>
+<script type="text/javascript">
+//...Code..
+
+var cxt = document.getElementById("canvas_id").getContext("2d");
+var graph = new BarGraph(cxt);
+graph.margin = 2;
+graph.width = 450;
+graph.height = 150;
+graph.xAxisLabelArr = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+graph.update([3, 5, 3, 4, 4, 13, 2]);
+
+</script>
+</body>
+</html>
