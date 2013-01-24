@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<title>Styling Form - HTML5 CSS3</title>
+<link rel="stylesheet" href="styles1.css" type="text/css">
+</head>
+
+<body>
+<form id=form1>
+<div id="image">
+  <fieldset>
+    <legend>Your details</legend>
+    <ol>
+      <li>
+        <label for=name>Name</label>
+        <input id=name name=name type=text placeholder="Angel" required autofocus>
+      </li>
+      <li>
+        <label for=email>Email</label>
+        <input id=email name=email type=email placeholder="example@johndoe.com" required>
+      </li>
+      <li>
+        <label for=phone>Phone</label>
+        <input id=phone name=phone type=tel placeholder="+44 (0) 131 510 1240 " required>
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend>Delivery address</legend>
+    <ol>
+      <li>
+        <label for=address>Address</label>
+        <textarea id=address name=address rows=5 required></textarea>
+      </li>
+      <li>
+        <label for=postcode>Post code</label>
+        <input id=postcode name=postcode type=text required>
+      </li>
+      <li>
+        <label for=country>Country</label>
+        <input id=country name=country type=text required>
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend>Card details</legend>
+    <ol>
+      <li>
+        <fieldset>
+          <legend>Card type</legend>
+          <ol>
+            <li>
+              <input id=visa name=cardtype type=radio>
+              <label for=visa>VISA</label>
+            </li>
+            <li>
+              <input id=switch name=cardtype type=radio>
+              <label for=switch>Switch</label>
+            </li>
+            <li>
+              <input id=mastercard name=cardtype type=radio>
+              <label for=mastercard>Mastercard</label>
+            </li>
+          </ol>
+        </fieldset>
+      </li>
+      <li>
+        <label for=cardnumber>Card number</label>
+        <input id=cardnumber name=cardnumber type=text required>
+      </li>
+      <li>
+        <label for=secure>Security code</label>
+        <input id=secure name=secure type=text required>
+      </li>
+      <li>
+        <label for=namecard>Name on card</label>
+        <input id=namecard name=nameoncard type=text placeholder="As displayed on card" required>
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <button type=submit>Pay Now</button>
+  </fieldset>
+  </div>
+</form>
+</body>
+</html>

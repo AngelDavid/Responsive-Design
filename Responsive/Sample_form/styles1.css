@@ -1,0 +1,107 @@
+body {
+	background: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 5px;
+	 background-image: url("index.jpeg"), url("index1.jpeg");
+	 background-repeat: repeat-x, repeat;
+}
+
+ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+form#form1 {
+	background:#00FF00;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
+	padding: 20px;
+	margin:auto;
+	max-width: 600px;
+}
+form#form1 fieldset {
+	border: none;
+	margin-bottom: 10px;
+	
+}
+
+form#form1 legend {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	-moz-text-shadow: 1px 1px 1px #222;
+	-webkit-text-shadow: 1px 1px 1px #222;
+	-o-text-shadow: 1px 1px 1px #222;
+	text-shadow: 1px 1px 1px #222;
+}
+
+form#form1 fieldset fieldset legend {
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+form#form1 ol li {
+	background: rgba(255,255,255,.3);
+	border:2px solid rgba(255,255,255,.6);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	padding-right:10px;
+}
+form#form1 ol ol li {
+	background: none;
+	border: none;
+	float: left;
+}
+
+
+form#form1 input:not([type=radio]),  form#form1 textarea {
+	background-color:rgba(255,255,255,.6);
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	padding: 5px;
+	width:93%;
+	-moz-transition: width .25s, background-color 1s;
+	-webkit-transition: width .25s, background-color 1s;
+	-o-transition: width .25s, background-color 1s;
+	transition: width .25s, background-color 1s;
+}
+form#form1 input:not([type=submit]):focus,  form#form1 textarea:focus {
+	width:98%;
+	background-color:#fff;
+}
+form#form1 input[type=radio] {
+	float: left;
+	margin-right: 5px;
+}
+form#form1 button {
+	background: #FC6;
+	border: 2px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font: 18px Arial, Helvetica, sans-serif;
+	padding:10px;
+}
+form#form1 button:hover {
+	background:#9C9;
+	cursor: pointer;
+}
+
+

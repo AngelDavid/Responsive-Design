@@ -1,0 +1,179 @@
+body {
+	background-image:url('../img/lightpaperfibers.png');
+	margin: 0;
+}
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 1140px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.onecol, .twocol {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+.header{
+	width: 100%;
+	height: 55px;
+	background-image: url('../img/png.png');
+	background-repeat: repeat-x;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+.header .logo {
+background-image: url('../img/1wd-logo.png');
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+}
+
+#logo {
+display: block;
+text-indent: -9999px;
+}
+
+.header .head{
+width: 100%;
+}
+
+.content{
+	width: 100%;
+}
+
+.content .body{
+	width: 65%;
+}
+
+.content .sidebar{
+	width: 31.2%;
+	margin-right: 0;
+}
+
+.footer .foot{
+	background-image: url('../img/1wd-logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.foot{
+	text-align: center;
+}
+
+img {
+
+/* This centers the image */
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+/* This adds the border */
+padding:8px;
+border:solid;
+border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+border-width: 1px 2px 2px 1px;
+background-color:white;
+}
+
+p {
+font-family: "HelveticaNeueLTCom-Roman", 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size: 16px;
+color: #333;
+line-height: 25px;
+}
+
+a {
+font-family: 'Museo700-Regular', Helvetica, sans-serif;
+color: #333;
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+float: left;
+}
+
+ul a {
+display: block;
+padding-right: 32px;
+
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 21px;
+color: #333;
+}
+
+h1 a {
+color: #333;
+}
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	}
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+	}
+	
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+}
